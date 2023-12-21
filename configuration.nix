@@ -83,10 +83,8 @@
     shell = pkgs.zsh;
     packages = with pkgs; [
       firefox
-      grub2
-      neovim
-      gparted
       git
+      alacritty
     ];
   };
 
